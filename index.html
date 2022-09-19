@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Refresh" content="0; url='main/home/index.html'" />
+    <style>
+        .loader {
+          border: 30px solid #f3f3f3;
+          border-radius: 50%;
+          border-top: 30px solid #09477c;
+          width: 350px;
+          height: 350px;
+          -webkit-animation: spin 2s linear infinite; /* Safari */
+          animation: spin 2s linear infinite;
+        }
+        .outer{
+            height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #eecc00;
+}
+         body{
+            margin: 0px;
+         }
+        
+        /* Safari */
+        @-webkit-keyframes spin {
+          0% { -webkit-transform: rotate(0deg); }
+          100% { -webkit-transform: rotate(360deg); }
+        }
+        
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+        </style>
+        </head>
+        <body>
+        
+        
+        
+        <div class="outer">
+            <div class="loader"></div>
+        </div>
+        
+        </body>
